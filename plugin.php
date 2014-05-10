@@ -11,7 +11,10 @@ ET::$pluginInfo["UserSince"] = array(
 	"author" => "Toby Zerner",
 	"authorEmail" => "support@esotalk.org",
 	"authorURL" => "http://esotalk.org",
-	"license" => "GPLv2"
+	"license" => "GPLv2",
+	"dependencies" => array(
+		"esoTalk" => "1.0.0g4"
+	)
 );
 
 class ETPlugin_UserSince extends ETPlugin {
